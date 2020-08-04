@@ -1,0 +1,246 @@
+<mxfile host="app.diagrams.net" modified="2020-08-04T01:08:47.449Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="RmWqUGzTLHmEu1iCSpLe" version="13.5.8" type="github">
+  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel dx="946" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="77e6c97f196da883-1" value="股票池 - 股票池" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="70" y="40" width="640" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="107ba76e4e335f99-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="77e6c97f196da883-1" source="2z-ww7W6MPCI695EFC_l-18" target="2z-ww7W6MPCI695EFC_l-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="350" />
+              <mxPoint x="360" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-14" value="&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="107ba76e4e335f99-1" vertex="1" connectable="0">
+          <mxGeometry x="0.2286" y="3" relative="1" as="geometry">
+            <mxPoint x="118.89" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-23" value="&lt;font style=&quot;font-size: 12px&quot;&gt;否&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="107ba76e4e335f99-1" vertex="1" connectable="0">
+          <mxGeometry x="-0.0322" relative="1" as="geometry">
+            <mxPoint x="130" y="41.67" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77e6c97f196da883-2" value="PM" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry y="20" width="160" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-42" value="&lt;font style=&quot;font-size: 12px&quot;&gt;结束&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="77e6c97f196da883-2" vertex="1">
+          <mxGeometry x="30" y="620" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1.071;exitDx=0;exitDy=0;exitPerimeter=0;" parent="77e6c97f196da883-2" source="2z-ww7W6MPCI695EFC_l-35" target="2z-ww7W6MPCI695EFC_l-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="80" y="90" as="sourcePoint" />
+            <mxPoint x="80" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-35" value="&lt;font face=&quot;verdana&quot;&gt;量化选股&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="77e6c97f196da883-2" vertex="1">
+          <mxGeometry x="30" y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-39" value="&lt;font style=&quot;font-size: 12px&quot;&gt;需要调整吗？&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
+          <mxGeometry x="20" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-40" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-2" source="2z-ww7W6MPCI695EFC_l-39" target="2z-ww7W6MPCI695EFC_l-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="400" as="sourcePoint" />
+            <mxPoint x="570" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="470" />
+              <mxPoint x="80" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-41" value="&lt;font style=&quot;font-size: 12px&quot;&gt;否&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2z-ww7W6MPCI695EFC_l-40" vertex="1" connectable="0">
+          <mxGeometry x="-0.7415" y="15" relative="1" as="geometry">
+            <mxPoint x="-5.000000000000001" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-17" value="&lt;font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;1. 本周禁投池 csv&lt;br&gt;2.本周量化禁投池&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="77e6c97f196da883-2" vertex="1">
+          <mxGeometry x="30" y="510" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-47" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.503;exitY=0.826;exitDx=0;exitDy=0;exitPerimeter=0;" parent="77e6c97f196da883-2" source="2z-ww7W6MPCI695EFC_l-51" target="2z-ww7W6MPCI695EFC_l-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="230" as="sourcePoint" />
+            <mxPoint x="110" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-48" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-2" source="2z-ww7W6MPCI695EFC_l-37" target="2z-ww7W6MPCI695EFC_l-39" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="360" as="sourcePoint" />
+            <mxPoint x="110" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-37" value="&lt;font style=&quot;font-size: 12px&quot;&gt;查看是否有禁投的持仓，确认是否再次调整禁投池&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="77e6c97f196da883-2" vertex="1">
+          <mxGeometry x="30" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-51" value="每半年生成&lt;br&gt;基础池" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="77e6c97f196da883-2" vertex="1">
+          <mxGeometry x="30" y="150" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-52" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.503;exitY=0.853;exitDx=0;exitDy=0;exitPerimeter=0;" parent="77e6c97f196da883-2" source="2z-ww7W6MPCI695EFC_l-17" target="2z-ww7W6MPCI695EFC_l-42" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="79.58000000000001" y="560" as="sourcePoint" />
+            <mxPoint x="79.58000000000001" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77e6c97f196da883-3" value="上周数据" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="160" y="20" width="160" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-1" value="&lt;font style=&quot;font-size: 12px&quot;&gt;研究员申请&lt;br&gt;调入&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="30" y="155" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-11" value="&lt;font style=&quot;font-size: 12px&quot;&gt;上周禁投池&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="30" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-2" value="&lt;font style=&quot;font-size: 12px&quot;&gt;研究员申请&lt;br&gt;调出&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="30" y="250" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-4" value="GR" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="320" y="20" width="160" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="77e6c97f196da883-4" source="2z-ww7W6MPCI695EFC_l-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79.71000000000004" y="330" as="sourcePoint" />
+            <mxPoint x="80" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-29" value="&lt;font style=&quot;font-size: 12px&quot;&gt;是&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2z-ww7W6MPCI695EFC_l-28" vertex="1" connectable="0">
+          <mxGeometry x="0.2286" y="3" relative="1" as="geometry">
+            <mxPoint x="-6.999999999999986" y="17.970000000000002" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-21" value="&lt;font style=&quot;font-size: 12px&quot;&gt;法务确认&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
+          <mxGeometry x="20" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-5" value="EQ / OV" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="480" y="20" width="160" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-35" value="&lt;font style=&quot;font-size: 12px&quot;&gt;否&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="77e6c97f196da883-5" source="77e6c97f196da883-16" target="2z-ww7W6MPCI695EFC_l-34" edge="1">
+          <mxGeometry x="-0.8077" y="-10" relative="1" as="geometry">
+            <mxPoint x="80" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="235" />
+              <mxPoint x="150" y="490" />
+              <mxPoint x="80" y="490" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-34" value="&lt;font style=&quot;font-size: 12px&quot;&gt;结束&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="77e6c97f196da883-5" vertex="1">
+          <mxGeometry x="30" y="550" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-16" value="&lt;font style=&quot;font-size: 12px&quot;&gt;投研负责人确认&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
+          <mxGeometry x="20" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-18" value="&lt;font style=&quot;font-size: 12px&quot;&gt;是否需要法务审批&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
+          <mxGeometry x="20" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="77e6c97f196da883-5" source="77e6c97f196da883-16" target="2z-ww7W6MPCI695EFC_l-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="245" as="sourcePoint" />
+            <mxPoint x="-180" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-20" value="&lt;font style=&quot;font-size: 12px&quot;&gt;是&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2z-ww7W6MPCI695EFC_l-19" vertex="1" connectable="0">
+          <mxGeometry x="0.2286" y="3" relative="1" as="geometry">
+            <mxPoint x="-12.999999999999986" y="-16.71" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77e6c97f196da883-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#000000;strokeWidth=1;fontFamily=Verdana;fontSize=8;fontColor=#000000;" parent="77e6c97f196da883-5" source="77e6c97f196da883-15" target="77e6c97f196da883-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-49" value="&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;研究员主动提出&lt;/font&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="77e6c97f196da883-5" vertex="1">
+          <mxGeometry x="30" y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-50" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="77e6c97f196da883-5" source="2z-ww7W6MPCI695EFC_l-49" target="77e6c97f196da883-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="120" as="sourcePoint" />
+            <mxPoint x="-30" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77e6c97f196da883-15" value="&lt;font style=&quot;font-size: 12px&quot;&gt;研究员&lt;br&gt;提出调入/调出&lt;br&gt;禁止投资池&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
+          <mxGeometry x="30" y="120" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="77e6c97f196da883-1" source="2z-ww7W6MPCI695EFC_l-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="77e6c97f196da883-1" source="77e6c97f196da883-11" target="2z-ww7W6MPCI695EFC_l-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="225" as="sourcePoint" />
+            <mxPoint x="130" y="205" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="110" />
+              <mxPoint x="170" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="77e6c97f196da883-1" source="2z-ww7W6MPCI695EFC_l-2" target="2z-ww7W6MPCI695EFC_l-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="215" as="sourcePoint" />
+            <mxPoint x="130" y="205" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="300" />
+              <mxPoint x="170" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="77e6c97f196da883-1" source="2z-ww7W6MPCI695EFC_l-18" target="2z-ww7W6MPCI695EFC_l-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="215" as="sourcePoint" />
+            <mxPoint x="300" y="215" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="350" />
+              <mxPoint x="360" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="77e6c97f196da883-1" source="2z-ww7W6MPCI695EFC_l-18" target="2z-ww7W6MPCI695EFC_l-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="245" as="sourcePoint" />
+            <mxPoint x="570" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-25" value="&lt;font style=&quot;font-size: 12px&quot;&gt;是&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2z-ww7W6MPCI695EFC_l-24" vertex="1" connectable="0">
+          <mxGeometry x="0.2286" y="3" relative="1" as="geometry">
+            <mxPoint x="32.500000000000014" y="-43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="77e6c97f196da883-1" source="2z-ww7W6MPCI695EFC_l-21" target="2z-ww7W6MPCI695EFC_l-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="405" as="sourcePoint" />
+            <mxPoint x="560" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="510" />
+              <mxPoint x="560" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-33" value="&lt;font style=&quot;font-size: 12px&quot;&gt;否&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2z-ww7W6MPCI695EFC_l-30" vertex="1" connectable="0">
+          <mxGeometry x="-0.7415" y="15" relative="1" as="geometry">
+            <mxPoint x="-5.000000000000001" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-45" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="77e6c97f196da883-1" source="2z-ww7W6MPCI695EFC_l-39" target="77e6c97f196da883-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="19" y="450" as="sourcePoint" />
+            <mxPoint x="20" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="440" />
+              <mxPoint x="330" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2z-ww7W6MPCI695EFC_l-46" value="&lt;font style=&quot;font-size: 12px&quot;&gt;是&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2z-ww7W6MPCI695EFC_l-45" vertex="1" connectable="0">
+          <mxGeometry x="0.2286" y="3" relative="1" as="geometry">
+            <mxPoint x="-177" y="213.32999999999998" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
