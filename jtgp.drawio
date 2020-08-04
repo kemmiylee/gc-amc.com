@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T09:22:36.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="50RN9sGf0f2rkpxf2PsI" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-04T09:29:03.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="NcioDmzjYdMxdZhCTYyq" version="13.5.8" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1021" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -216,7 +216,7 @@
             <mxPoint x="125" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="77e6c97f196da883-15" value="&lt;font style=&quot;font-size: 12px&quot;&gt;研究员&lt;br&gt;提出调入/调出&lt;br&gt;基础池&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
+        <mxCell id="77e6c97f196da883-15" value="&lt;font style=&quot;font-size: 12px&quot;&gt;研究员&lt;br&gt;提出调入/调出&lt;br&gt;核心/核心重仓池&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="185" y="120" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lN75aus63w0ET1sCyVi9-60" value="EQ / OV" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
